@@ -3,19 +3,19 @@
     "symbol": "XMRUSDT",
     "logging_level": 0,
 
-    "ddown_factor": 1.75,
-    "qty_pct": 0.0075,
+    "ddown_factor": 0.65,
+    "qty_pct": 0.0125,
     "leverage": 28.0,
     "n_entry_orders": 8,
-    "n_close_orders": 16.0,
+    "n_close_orders": 16,
 
-    "grid_spacing": 0.00352,
-    "grid_coefficient": 317,
-    "min_markup": 0.00108,
-    "markup_range": 0.00508,
+    "grid_spacing": 0.0023,
+    "grid_coefficient": 295,
+    "min_markup": 0.001,
+    "markup_range": 0.005,
 
     "do_long": true,
     "do_shrt": true,
-    "ema_span": 29494.0,
-    "ema_spread": 0.0056
+    "ema_span": 29000,
+    "ema_spread": 0.005
 }
